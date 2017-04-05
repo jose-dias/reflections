@@ -20,3 +20,12 @@ Describe the differences between forks, clones, and branches. When would you use
 	I would use clones for working localy in a project and test it well before pushing changes to the remote, shared repository.
 
 	I would use forks to easily create my own version of a project in GitHub based on someone else's project while giving them credit for their work. This approach would also make it easier for me to suggest changes to the author of the original project. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It allows the comparison of HEAD with a local copy of the remote to facilitate merging the changes done locally with the changes done in parallel at the remote repository. By using the fetch command it is possible to update the local copy of the remote repository without modifying the files being worked locally.
+
+
+
+
+
