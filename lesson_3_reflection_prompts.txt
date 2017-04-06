@@ -29,4 +29,25 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 	I would try to use a shared folder in the cloud and use some rules to coordinate modifications, such as renaming files using standardized sufixes for signaling that the file is being edited. It would be faster to do simple and infrequent modifications that require coordinating with very few people, but it would be virtually impossible to work with a team on a big project that requires modification of several files at the same time for adding features, etc.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When the project is complex it is a good idea to use branches to make changes, review and test them before merging with the main branch (master). This method combined with the pull request feature in Git Hub becomes particularly useful when working in teams. 
+	Before the master branch becomes stable and/or ready to be shared with others, I would make changes using push and pull directly without creating a separate branch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
