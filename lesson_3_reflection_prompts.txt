@@ -25,7 +25,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 	It allows the comparison of HEAD with a local copy of the remote to facilitate merging the changes done locally with the changes done in parallel at the remote repository. By using the fetch command it is possible to update the local copy of the remote repository without modifying the files being worked locally.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-
+	I would try to use a shared folder in the cloud and use some rules to coordinate modifications, such as renaming files using standardized sufixes for signaling that the file is being edited. It would be faster to do simple and infrequent modifications that require coordinating with very few people, but it would be virtually impossible to work with a team on a big project that requires modification of several files at the same time for adding features, etc.
 
 
